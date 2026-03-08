@@ -3,7 +3,9 @@
   "short_name": "Chromite",
   "version": "1.0.0",
   "manifest_version": 3,
+  "id": "chromite-rdp-app",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "isolated_web_app": {
     "version": "1.0.0"
@@ -12,16 +14,8 @@
     "direct-sockets"
   ],
   "icons": [
-    {
-      "src": "icon_16.png",
-      "sizes": "16x16",
-      "type": "image/png"
-    },
-    {
-      "src": "icon_128.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    }
+    { "src": "icon_16.png", "sizes": "16x16", "type": "image/png" },
+    { "src": "icon_128.png", "sizes": "128x128", "type": "image/png" }
   ],
   "content_security_policy": {
     "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'none';",
